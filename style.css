@@ -3,11 +3,6 @@
     height: auto;
     padding-top: 72px;
     padding-bottom:48px;
-    left:0;
-    right:0;
-    padding-left:0;
-    padding-right:0;
-    
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 
     1.2fr 1.2fr 1.2fr 0.2fr ;
@@ -20,12 +15,11 @@
     background-image:linear-gradient(120deg, orange,white,green);
 }
 header{
-    background-color: aqua;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    font-size: 36pt;
+    font-size: 24pt;
     background-image: linear-gradient(orange,white,green);
     color: blue;
     height:auto;
@@ -69,7 +63,7 @@ footer{
     bottom:0;
     left:0;
     right:0;
-    font-size: 20pt;
+    font-size: 14pt;
     background-image: linear-gradient(orange,white,green);
     color: blue;
     height:auto;
@@ -78,10 +72,12 @@ footer{
 h5 {
     width: 90%;
     height: auto;
-    font-size: 20pt;
+    font-size: 14pt;
+    background-image: linear-gradient(120deg, aqua,skyblue,lightpink);
     border-radius: 10px;
     border: solid rgb(104, 18, 104);
     margin:5px;
+    color:black;
 }
 img{
     border: solid black;
